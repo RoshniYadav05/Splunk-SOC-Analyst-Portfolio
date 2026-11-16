@@ -1,0 +1,22 @@
+# Local data and exports
+*.csv
+*.json
+*.jsonl
+*.log
+*.evtx
+*.pcap
+*.zip
+*.gz
+
+# Splunk exports / local configuration
+*.conf.local
+*.pem
+*.key
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
