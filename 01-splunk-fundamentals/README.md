@@ -1,15 +1,71 @@
 # Splunk Fundamentals
 
-Status: Planned
+**Status:** In Progress  
+**Focus:** Understanding Splunk architecture, core concepts, and basic SIEM operations.
 
-Document concepts as you learn and verify them in your own Splunk instance.
+## Overview
 
-Suggested topics:
-- What Splunk is and common SOC use cases
-- Search head, indexer and forwarder roles
-- Events, fields, indexes and sourcetypes
-- Time picker and search-time field extraction
-- Data onboarding concepts
-- Search job and result interpretation
+This section covers the fundamental concepts of Splunk and its role in Security Information and Event Management (SIEM).
 
-For each topic, include: explanation in your own words, a small verified example, a screenshot if useful, and a source link.
+The objective is to understand how Splunk collects, processes, stores, searches, and analyzes machine-generated data, particularly security logs used by SOC analysts.
+
+All concepts will be documented with practical examples and verified observations from my own Splunk environment wherever applicable.
+
+## Learning Objectives
+
+- Understand what Splunk is and how it is used in a SOC environment.
+- Understand Splunk architecture and the roles of its core components.
+- Learn how Splunk handles events, fields, indexes, and sourcetypes.
+- Understand time-based searches and search-time field extraction.
+- Learn the fundamentals of data onboarding.
+- Understand search execution and result interpretation.
+
+## Topics Covered
+
+| No. | Topic | Documentation |
+|---|---|---|
+| 01 | Splunk Architecture | [splunk-architecture.md](splunk-architecture.md) |
+| 02 | Introduction to Splunk | To be added |
+| 03 | Events and Fields | To be added |
+| 04 | Indexes and Sourcetypes | To be added |
+| 05 | Time Picker and Field Extraction | To be added |
+| 06 | Data Onboarding Concepts | To be added |
+| 07 | Search Jobs and Result Interpretation | To be added |
+
+## Documentation Standards
+
+For every topic, I will include:
+
+1. **Concept Explanation:** Explain the concept in simple words using my own understanding.
+2. **Practical Example:** Include a relevant example to demonstrate the concept.
+3. **Lab Verification:** Document the steps performed and results verified in my Splunk environment.
+4. **Screenshots / Evidence:** Include screenshots of practical work wherever useful.
+5. **Key Learnings:** Summarize important observations and takeaways.
+
+## Practical Learning Approach
+
+The concepts will be explored using Splunk Enterprise and relevant log data.
+
+Practical activities will include:
+
+- Exploring the Splunk Web interface.
+- Understanding available indexes and sourcetypes.
+- Searching and filtering events.
+- Exploring extracted fields.
+- Changing time ranges and comparing search results.
+- Understanding how incoming log data becomes searchable.
+- Reviewing search results and identifying relevant security information.
+
+## Skills Developed
+
+- SIEM Fundamentals
+- Splunk Architecture
+- Log Management and Analysis
+- Event and Field Analysis
+- Basic SPL Search
+- Security Monitoring Fundamentals
+- Log Investigation
+
+## Learning Outcome
+
+By completing this section, I aim to develop a strong understanding of Splunk fundamentals and establish the foundation required for practical SOC investigations, security monitoring, detection engineering, and alert analysis.
