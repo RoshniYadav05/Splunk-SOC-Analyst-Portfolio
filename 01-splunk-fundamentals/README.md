@@ -20,18 +20,6 @@ All concepts will be documented with practical examples and verified observation
 - Learn the fundamentals of data onboarding.
 - Understand search execution and result interpretation.
 
-## Topics Covered
-
-| No. | Topic | Documentation |
-|---|---|---|
-| 01 | Splunk Architecture | [splunk-architecture.md](splunk-architecture.md) |
-| 02 | Introduction to Splunk | To be added |
-| 03 | Events and Fields | To be added |
-| 04 | Indexes and Sourcetypes | To be added |
-| 05 | Time Picker and Field Extraction | To be added |
-| 06 | Data Onboarding Concepts | To be added |
-| 07 | Search Jobs and Result Interpretation | To be added |
-
 ## Documentation Standards
 
 For every topic, I will include:
